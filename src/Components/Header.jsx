@@ -4,7 +4,7 @@ import logo from './../assets/Images/logo.png'
 function Header() {
   return (
       <div>
-          <img src="" alt="" />
+          <img src={logo} className='w-[80px] md:w-[115px] object-cover' alt="" />
     </div>
   )
 }
